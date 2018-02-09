@@ -75,7 +75,7 @@ SymmetricMeanAbsolutePercentageError <- function(predicted, actual)
   return (paste(round(res,2), '%', sep=""))
 }
 
-# Calculates APE: https://blog.arkieva.com/two-sides-of-the-mape-coin/
+#' Calculates APE: https://blog.arkieva.com/two-sides-of-the-mape-coin/
 #'
 #' @export
 #' @param predicted Predicted values
